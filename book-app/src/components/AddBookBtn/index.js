@@ -18,7 +18,7 @@ class AddBookBtn extends React.Component{
         axios.post("/api/books", dbBook)
         .then( () => toast.success(`You added ${book.title} to your bookshelf`))
         .catch(err => console.log(err))
-      }
+      };
 
     render() {
         return (
@@ -31,6 +31,6 @@ class AddBookBtn extends React.Component{
         </div>
         );
     }
-  }
+  };
 
   export default AddBookBtn;
