@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Container } from "../../components/Grid";
-import { List, ListItem } from "../../components/List";
+import { List, ListItem } from "../../components/BookList";
 import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
 import BookBtn from "../../components/BookBtn";
